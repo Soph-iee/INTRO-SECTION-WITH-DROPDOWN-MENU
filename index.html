@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Frontend Mentor | Intro section with dropdown navigation</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="header">
+        <div class="logo">
+          <img src="images/logo.svg" alt="" />
+
+          <nav class="nav-bar">
+            <li id="featured">
+              Features
+              <img
+                class="feature-icon"
+                src="images/icon-arrow-down.svg"
+                alt=""
+              />
+              <img
+                class="feature-icon display"
+                src="images/icon-arrow-up.svg"
+                alt=""
+              />
+            </li>
+            <li class="company">
+              Company
+              <img
+                class="company-icon"
+                src="images/icon-arrow-down.svg"
+                alt=""
+              />
+              <img
+                class="company-icon display"
+                src="images/icon-arrow-up.svg"
+                alt=""
+              />
+            </li>
+            <li>Careers</li>
+            <li>About</li>
+          </nav>
+        </div>
+        <div class="user-bar">
+          <li>Login</li>
+          <li class="register">Register</li>
+        </div>
+      </div>
+
+      <section class="hero-section">
+        <div class="hero-content">
+          <h1>Make remote work</h1>
+          <p class="more-info">
+            Get your team in sync, no matter your location. Streamline
+            processes, create team rituals, and watch productivity.
+          </p>
+          <p class="cta-btn">Learn more</p>
+          <div class="featured">
+            <img src="images/client-databiz.svg" alt="" />
+            <img src="images/client-audiophile.svg" alt="" />
+            <img src="images/client-meet.svg" alt="" />
+            <img src="images/client-maker.svg" alt="" />
+          </div>
+        </div>
+        <div class="hero-image">
+          <img src="images/image-hero-desktop.png" alt="" />
+        </div>
+      </section>
+      <aside>
+        <div class="featured-dropdown display">
+          <li>
+            <span> <img src="images/icon-todo.svg" alt="" /></span>Todo List
+          </li>
+          <li>
+            <span> <img src="images/icon-calendar.svg" alt="" /></span>Calendar
+          </li>
+          <li>
+            <span> <img src="images/icon-reminders.svg" alt="" /></span
+            >Reminders
+          </li>
+          <li>
+            <span> <img src="images/icon-planning.svg" alt="" /></span>Planning
+          </li>
+        </div>
+        <div class="company-dropdown display">
+          <li>History</li>
+          <li>Our Team</li>
+          <li>Blog</li>
+        </div>
+      </aside>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
